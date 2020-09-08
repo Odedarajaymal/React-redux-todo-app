@@ -38,7 +38,7 @@ class Addoptions extends Component {
                  </from>
                   </div>
                  {this.props.todo.map((tod)=>(
-                                    <div className='col-md-12 mt-3' >
+                                    <div className='mt-3' style={{width: '100%'}} >
                                     <table className="table table-dark">
                                           <thead>
                                               <tr>
